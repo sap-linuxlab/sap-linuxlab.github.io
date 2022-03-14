@@ -1,0 +1,37 @@
+# .gitignore defines files to ignore and remain untracked in Git
+# Each line in a gitignore file specifies a pattern, eg. directory or file extension
+# Further .gitignore templates available at: https://github.com/github/gitignore
+
+
+# macOS OS generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows OS generated files #
+ehthumbs.db
+Thumbs.db
+
+# Compressed Archives
+# git has built-in compression
+# *.7z
+# *.dmg
+# *.gz
+# *.iso
+# *.jar
+# *.rar
+# *.tar
+# *.zip
+
+# Binaries / Compiled source
+# *.com
+# *.class
+# *.dll
+# *.exe
+# *.o
+# *.so
+
+# Logs and databases
+# *.log
+# *.sqlite

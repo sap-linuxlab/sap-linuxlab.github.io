@@ -1,0 +1,54 @@
+site_name: SAP LinuxLab open-source initiative
+
+nav:
+    - 'index.md'
+    - '00_about.md'
+    - '01_projects_overview.md'
+    - '02_roadmap.md'
+    - '04_faq.md'
+    - '05_participating_companies.md'
+    - 'Project Contributions':
+      - 'contribute/contribute_01_guidelines.md'
+      - 'contribute/contribute_02_naming_conventions.md'
+      - 'contribute/contribute_03_how_to_contribute.md'
+      - 'contribute/contribute_04_dev_guidelines.md'
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Roboto
+#  logo: ''
+#  favicon: ''
+  features:
+    - toc.integrate
+    - search.share
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra_css:
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/asciinema_3-0-0-rc1-player.css
+
+extra_javascript:
+  - assets/javascripts/asciinema_3-0-0-rc1-player.min.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  generator: false
