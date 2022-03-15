@@ -6,11 +6,20 @@
   min-width: 16rem;
 }
 
-@media screen and (max-width:76.1875em) {
+@media screen and (max-width: 76.1875em) {
   [dir=ltr] .md-sidebar--primary {
     left:-12.1rem
   }
   [dir=ltr] .md-sidebar--primary {
     min-width:12.1rem
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #founding-members-big {
+      display: none !important;
+  }
+  #founding-members-small {
+    display: block !important;
   }
 }
