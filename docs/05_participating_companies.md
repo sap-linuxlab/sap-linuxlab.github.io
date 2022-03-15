@@ -32,7 +32,7 @@
   </div>
   <div style="display: flex;">
     <img src="/assets/img/ibm_power_systems_logotype_rgb.svg" alt="IBM Power Systems" width="150"/>
-    <img src="/assets/img/sva_logo_4c.jpg" alt="SVA" style="margin-top: 25px; margin-left:25px; width: 100px; height: 64px;"/>
+    <img src="/assets/img/sva_logo_4c.jpg" alt="SVA" style="margin-top: 10px; margin-left:25px; width: 100px; height: 64px;"/>
   </div>
 </div>
 
