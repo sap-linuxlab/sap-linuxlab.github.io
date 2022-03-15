@@ -18,8 +18,9 @@ theme:
   language: en
   font:
     text: Roboto
-#  logo: ''
-#  favicon: ''
+  icon:
+    logo: 'material/open-source-initiative'
+  favicon: ''
   features:
     - toc.integrate
     - search.share

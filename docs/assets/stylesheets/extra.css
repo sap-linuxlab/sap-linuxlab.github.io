@@ -3,5 +3,14 @@
 }
 
 .md-sidebar {
-  width: 15rem;
+  min-width: 16rem;
+}
+
+@media screen and (max-width:76.1875em) {
+  [dir=ltr] .md-sidebar--primary {
+    left:-12.1rem
+  }
+  [dir=ltr] .md-sidebar--primary {
+    min-width:12.1rem
+  }
 }
