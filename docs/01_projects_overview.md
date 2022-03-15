@@ -5,13 +5,13 @@ Projects within the SAP LinuxLab initiative provide end users with modular code 
 | Project Repository | Project Description | Maintainer/s |  |
 |:---|:---|:---|:---|
 | [community.sap_install](https://github.com/sap-linuxlab/community.sap_install) | Collection of Ansible Roles for various SAP software installation | [berndfinger](https://github.com/berndfinger) | [sean-freeman](https://github.com/sean-freeman) |
-| [community.sap_operations](https://github.com/sap-linuxlab/community.sap_operations) | Collection of Ansible Roles for various operational tasks with SAP Systems | [sean-freeman](https://github.com/sean-freeman) | **[apply](form_request_apply_as_maintainer.md)** |
-| [community.sap_launchpad](https://github.com/sap-linuxlab/community.sap_launchpad) | Collection of Ansible Roles and Ansible Modules for various tasks using SAP Launchpad APIs | [sean-freeman](https://github.com/sean-freeman) | **[apply](form_request_apply_as_maintainer.md)** |
+| [community.sap_operations](https://github.com/sap-linuxlab/community.sap_operations) | Collection of Ansible Roles for various operational tasks with SAP Systems | [sean-freeman](https://github.com/sean-freeman) | [berndfinger](https://github.com/berndfinger) |
+| [community.sap_launchpad](https://github.com/sap-linuxlab/community.sap_launchpad) | Collection of Ansible Roles and Ansible Modules for various tasks using SAP Launchpad APIs | [sean-freeman](https://github.com/sean-freeman) | [berndfinger](https://github.com/berndfinger) |
 | [terraform.sap_infrastructure](https://github.com/sap-linuxlab/terraform.sap_infrastructure) | Terraform Templates for deployment of various SAP solution scenarios, for every Cloud and Hypervisor | [sean-freeman](https://github.com/sean-freeman) | **[apply](form_request_apply_as_maintainer.md)** |
 | tool.sap_infrastructure_actions | Scripts to perform Infrastructure actions for SAP operations | [sean-freeman](https://github.com/sean-freeman) | **[apply](form_request_apply_as_maintainer.md)** |
 | [tool.sap_sizing_calculators](https://github.com/sap-linuxlab/tool.sap_sizing_calculators) | Calculations to assist SAP Technical Administrators in sizing decisions for designing and deploying SAP Landscapes | [sean-freeman](https://github.com/sean-freeman) | **[apply](form_request_apply_as_maintainer.md)** |
 | [architecture.sap_hana](https://github.com/sap-linuxlab/architecture.sap_hana) | OUTDATED: Reference Architecture for SAP HANA for every Cloud and Hypervisor | **[apply](form_request_apply_as_maintainer.md)** | **[apply](form_request_apply_as_maintainer.md)** |
-| [sap-linuxlab.github.io](https://github.com/sap-linuxlab/sap-linuxlab.github.io) | Static site (here) | [rhmk](https://github.com/rhmk) | **[apply](form_request_apply_as_maintainer.md)** |
+| [sap-linuxlab.github.io](https://github.com/sap-linuxlab/sap-linuxlab.github.io) | Static site (here) | [rhmk](https://github.com/rhmk) | [sean-freeman](https://github.com/sean-freeman) |
 
 
 <!--- autogenerate from repo/maintainers.md or meta.md --->
