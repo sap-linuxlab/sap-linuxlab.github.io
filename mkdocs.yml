@@ -15,6 +15,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: material_theme_custom
   language: en
   font:
     text: Roboto
