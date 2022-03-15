@@ -7,5 +7,5 @@ The SAP LinuxLab open-source initiative provides easier creation and management 
 <br/>
 
 <div style="display: flex;">
-  <img src="/assets/img/sap_linuxlab_oss_initiative_overview_v2.svg" alt="SAP LinuxLab open-source Initiative" style="width: 50%; min-width: 600px;"/>
+  <img src="/assets/img/sap_linuxlab_oss_initiative_overview_v2.svg" alt="SAP LinuxLab open-source Initiative" style="width: 50%; min-width: 425px;"/>
 </div>
