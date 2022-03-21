@@ -13,7 +13,7 @@ This page contains several demo recordings, to demonstrate the functionality of 
 
 <div id="terraform-demo1-wrapper" style="z-index: 1; position: relative; max-width: 80%;"></div>
 
-
+<!--
 ### SAP S/4HANA installation using SAP Maintanence Planner
 
 - SAP solution scenario: **SAP S/4HANA 2021, One Host**
@@ -55,11 +55,11 @@ This page contains several demo recordings, to demonstrate the functionality of 
 
 <div id="ansible-demo1-wrapper" style="z-index: 1; position: relative; max-width: 80%;"></div>
 
-
+-->
 
 <script>
   window.onload = function(){
-    AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('terraform-demo1-wrapper'));
+    AsciinemaPlayer.create('/assets/asciicast/sap_01-ascii.cast', document.getElementById('terraform-demo1-wrapper'));
     AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('terraform-demo2-wrapper'));
     AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('terraform-demo3-wrapper'));
     AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('terraform-demo4-wrapper'));
