@@ -4,6 +4,7 @@ nav:
     - 'index.md'
     - '00_about.md'
     - '01_projects_overview.md'
+    - '01b_projects_functionality.md'
     - '02_roadmap.md'
     - '03_demos.md'
     - '04_faq.md'
