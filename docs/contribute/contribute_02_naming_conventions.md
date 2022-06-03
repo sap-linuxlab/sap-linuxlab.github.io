@@ -12,4 +12,5 @@ The content repositories contain will be prefixed according the following schema
 |  | Salt | `salt.`*description* |
 | Shell scripts | Tools and Utilities | `tool.`*description* |
 | Documentation | Architectures | `architecture.`*sap_product_name* <sub>*(assumes Solution Architectures)*</sub> |
+| Special Topics | High Availability | `high-availability.`*description* |
 | Misc. | Demos and Examples | `demo.`*description* |
