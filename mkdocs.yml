@@ -39,10 +39,10 @@ theme:
 
 extra_css:
   - assets/stylesheets/extra.css
-  - assets/stylesheets/asciinema_3-0-0-rc1-player.css
+  - assets/stylesheets/asciinema-3-0-0-player.css
 
 extra_javascript:
-  - assets/javascripts/asciinema_3-0-0-rc1-player.min.js
+  - assets/javascripts/asciinema-3-0-0-player.min.js
 
 plugins:
   - search
