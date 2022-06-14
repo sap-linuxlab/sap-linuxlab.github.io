@@ -23,7 +23,7 @@ This page contains several demo recordings, to demonstrate the functionality of 
 
 <div id="terraform-demo2-wrapper" style="z-index: 1; position: relative; max-width: 80%;"></div>
 
-<!--
+
 ### SAP S/4HANA System Copy (Homogeneous with SAP HANA Backup / Recovery)
 
 - SAP solution scenario: **SAP S/4HANA 2021, One Host System Copy (Homogeneous) using SAP HANA complete data backup file)**
@@ -33,7 +33,7 @@ This page contains several demo recordings, to demonstrate the functionality of 
 
 <div id="terraform-demo3-wrapper" style="z-index: 1; position: relative; max-width: 80%;"></div>
 
-
+<!--
 ### SAP ECC on SAP HANA System Copy (Homogeneous with SAP HANA Backup / Recovery)
 
 - SAP solution scenario: **SAP S/4HANA 2021, One Host System Copy (Homogeneous) using SAP HANA complete data backup file)**
@@ -61,7 +61,7 @@ This page contains several demo recordings, to demonstrate the functionality of 
   window.onload = function(){
     AsciinemaPlayer.create('/assets/asciicast/sap_01-ascii.cast', document.getElementById('terraform-demo1-wrapper'));
     AsciinemaPlayer.create('/assets/asciicast/sap_02-ascii.cast', document.getElementById('terraform-demo2-wrapper'));
-    AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('terraform-demo3-wrapper'));
+    AsciinemaPlayer.create('/assets/asciicast/sap_03-ascii.cast', document.getElementById('terraform-demo3-wrapper'));
     AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('terraform-demo4-wrapper'));
     AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('ansible-demo1-wrapper'));
   }
