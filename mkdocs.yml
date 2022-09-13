@@ -70,6 +70,7 @@ extra:
       With your consent, you're helping us to improve the initiative.
     actions:
       - accept
+      - reject
     cookies:
       analytics:
         name: Google Analytics
