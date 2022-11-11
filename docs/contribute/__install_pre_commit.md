@@ -19,6 +19,7 @@
     ```
     $ /usr/bin/python3.9 -m venv ~/.venv/pre-commit 
     ```
+    <BR>
     ```
     $ . ~/.venv/pre-commit/bin/activate
     ```
@@ -28,13 +29,14 @@
     ```
     $ pip install --upgrade pip
     ```
+    
     ```
     $ pip install pre-commit
     ```
 
 4. Set an alias or link to `~/.venv/pre-commit/bin/pre-commit` to use it
 
-On other Linux distributions you can either create a virtual environment or install with `pip install --user pre-commit`
+On other Linux distributions with newer python versions, you can either create a virtual environment or install with `pip install --user pre-commit`
 
 ## Using pre-commit
 
