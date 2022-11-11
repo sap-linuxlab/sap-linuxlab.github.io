@@ -26,13 +26,10 @@
 
 3. Install pre-commit
     
-    ```
+    <pre> <code>
     $ pip install --upgrade pip
-    ```
-    <BR>
-    ```
     $ pip install pre-commit
-    ```
+    </code></pre>
 
 4. Set an alias or link to `~/.venv/pre-commit/bin/pre-commit` to use it
 
