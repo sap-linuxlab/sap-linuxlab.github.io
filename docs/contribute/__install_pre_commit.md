@@ -14,19 +14,12 @@
     $ sudo dnf install python39-3.9.7
     ```
 
-2. Create a venv and activate it
-
-    ```
+2. Create a venv and activate it <pre> <code>
     $ /usr/bin/python3.9 -m venv ~/.venv/pre-commit 
-    ```
-    <BR>
-    ```
     $ . ~/.venv/pre-commit/bin/activate
-    ```
+    </code></pre>
 
-3. Install pre-commit
-    
-    <pre> <code>
+3. Install pre-commit <pre> <code>
     $ pip install --upgrade pip
     $ pip install pre-commit
     </code></pre>
