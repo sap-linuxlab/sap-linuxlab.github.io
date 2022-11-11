@@ -29,7 +29,7 @@
     ```
     $ pip install --upgrade pip
     ```
-    
+    <BR>
     ```
     $ pip install pre-commit
     ```
