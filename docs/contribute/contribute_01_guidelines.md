@@ -21,12 +21,14 @@ While there are multiple development styles, the SAP LinuxLab GitHUb community t
 - Adjust the work based on comments received
 - Await the merge by another committer
 
+<!--
 The following guides are available to learn more about this process and start contributing:
 
 1. [Local Setup](contribution/localsetup)
 2. [Contributing Code (Opening a Pull Request)](contribution/createPR)
 3. [Testing a Pull Request](contribution/testPR)
 4. [Opening a Pull Request Against A Pull Request](contribution/openPR)
+-->
 
 ## General Guidance
 
@@ -45,7 +47,7 @@ Do:
 
 Don’t:
 
-- Commit directly to the master branch
+- Commit directly to the master(main) branch
 - Merge pull requests you have authored
 - Break existing functionality
 - Ignore requests for assistance
