@@ -18,13 +18,17 @@
 
     ```
     $ /usr/bin/python3.9 -m venv ~/.venv/pre-commit 
+    ```
+    ```
     $ . ~/.venv/pre-commit/bin/activate
     ```
 
 3. Install pre-commit
     
     ```
-    $ pip install --upgrade pip\n
+    $ pip install --upgrade pip
+    ```
+    ```
     $ pip install pre-commit
     ```
 
