@@ -24,8 +24,7 @@
 3. Install pre-commit
     
     ```
-    $ pip install --upgrade pip
-    
+    $ pip install --upgrade pip<BR>
     $ pip install pre-commit
     ```
 
