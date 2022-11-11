@@ -8,25 +8,23 @@
 
 ## Installation on RHEL8 (defaults to pyhton 3.6)
 
-1. Install Python 3.9   
-
-    ```
-    $ sudo dnf install python39-3.9.7
-    ```
+1. Install Python 3.9  <pre> <code>
+    sudo dnf install python39-3.9.7
+</code></pre>
 
 2. Create a venv and activate it <pre> <code>
-    $ /usr/bin/python3.9 -m venv ~/.venv/pre-commit 
-    $ . ~/.venv/pre-commit/bin/activate
+    /usr/bin/python3.9 -m venv ~/.venv/pre-commit 
+    . ~/.venv/pre-commit/bin/activate
     </code></pre>
 
 3. Install pre-commit <pre> <code>
-    $ pip install --upgrade pip
-    $ pip install pre-commit
+    pip install --upgrade pip
+    pip install pre-commit
     </code></pre>
 
 4. Set an alias or link to `~/.venv/pre-commit/bin/pre-commit` to use it
 
-On other Linux distributions with newer python versions, you can either create a virtual environment or install with `pip install --user pre-commit`
+On other Linux distributions with python 3.7 and later, you can either create a virtual environment or install with `pip install --user pre-commit`
 
 ## Using pre-commit
 

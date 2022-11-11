@@ -34,21 +34,28 @@ __sample_role_register_installed_packages
 
 ### Ansible-lint Cleaning
 
-Only ansible-lint clean collections can be imported into Ansible Galaxy.
+Only ansible-lint clean collections can be imported into Ansible Galaxy. To avoid errors we recommend installing and using [pre-commit](__install_pre_commit.md).
 
-- Always install and use the latest version of ansible-lint. As of 02-Dec-2021, it's ansible-lint-5.3.0. Install with:
+Then the linting files `.ansible-lint` and `.yamllint.yml` are automatically maintained and installed by any `git clone` or `git pull` request. 
+The correct linting version is maintained by the `.pre-commit-config.yml` file.
+
+If you do not want to use pre-commit follow this guideline:
+
+
+- Always install and use the latest version of ansible-lint. You can find the latest release version [here](https://github.com/ansible-community/ansible-lint/releases/).
+Install with:
 ```
 # pip3 install ansible-lint --user
 ```
 
 - Put the following two files in the home directory of each role:
-  - [.ansible-lint](https://github.com/berndfinger/sap-preconfigure/blob/bz2003630/.ansible-lint)
-  - [.yamllint.yml](https://github.com/berndfinger/sap-preconfigure/blob/bz2003630/.yamllint.yml)
+  - [.ansible-lint](https://raw.githubusercontent.com/berndfinger/sap-preconfigure/master/.ansible-lint)
+  - [.yamllint.yml](https://raw.githubusercontent.com/berndfinger/sap-preconfigure/master/.yamllint.yml)
 
 The files are configured to enforce most default ansible-lint rules but skip others based on certain development requirements and experiences.
 
 - Put the following file into directory .github/workflow of each role:
-  - [.github/workflows/ansible-lint.yml](https://github.com/berndfinger/sap-preconfigure/blob/bz2003630/.github/workflows/ansible-lint.yml)
+  - [.github/workflows/ansible-lint.yml](https://raw.githubusercontent.com/berndfinger/sap-preconfigure/master/.github/workflows/ansible-lint.yml)
 
 This will trigger an ansible-lint v. 5.3.0 run in a freshly created virtual system on GitHub after each git push or pull request.
 
