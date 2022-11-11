@@ -13,7 +13,6 @@ nav:
       - 'contribute/contribute_01_guidelines.md'
       - 'contribute/contribute_02_naming_conventions.md'
       - 'contribute/contribute_03_how_to_contribute.md'
-      - 'contribute/contribute_04_dev_guidelines.md'
 
 theme:
   name: material

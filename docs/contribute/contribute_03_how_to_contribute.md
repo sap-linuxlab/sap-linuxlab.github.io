@@ -11,7 +11,7 @@ If you want to contribute code please follow the follwing process
 
 - create or pick an issue in the repository you want to contribute to
 - assign yourslef to this issue
-- [fork the repsitory](https://docs.github.com/en/get-started/quickstart/fork-a-repo) dev branch into your account
+- [fork the repsitory](__create_a_fork.md) dev branch into your account
 - make sure to follow the special code development guidelines if those exist
 - make your changes
 - create a pull request against the dev branch
