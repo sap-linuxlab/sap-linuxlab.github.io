@@ -37,6 +37,7 @@ When making a contribution to the repositories of the SAP LinuxLab organization,
 Do:
 
 - Squash commits whenever possible
+- Use `pre-commit` to avoid pushing non-standardized code
 - Engage with the community and with contributors
 - Write tests when applicable
 - Discuss with other committers whenever you are unsure of something

@@ -36,7 +36,10 @@ On other Linux distributions you can either create a virtual environment or inst
 
 ### Configuration files
 
-The config file for pre-commit are created in the root directory of github and is called `.pre-config.yml`. In case of ansible collections othe config files apply such as `.ansible-lint` and `.yamllint` The required config files should be created and maintained by the repo maintainers
+The config file for pre-commit are created in the root directory of github and is called `.pre-config.yml`. 
+In case of ansible collections other config files may apply such as `.ansible-lint` and `.yamllint`. 
+The required config files should be created and maintained by the repo maintainers.
+Hence they are automatcially downloaded with `git clone` and `git pull` commands
 
 ### Activate pre-commit
 A repository maintainer activates pre-commit by running `pre-commit install` within a directory of the cloned repository
