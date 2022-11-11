@@ -64,7 +64,3 @@ Your local master branch is now up-to-date. However, this did not update your re
 ```
 git push
 ```
-
-## Next
-
-* [Opening a Pull Request](openPR.html)
