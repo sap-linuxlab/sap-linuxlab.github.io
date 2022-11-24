@@ -66,3 +66,7 @@ This page contains several demo recordings, to demonstrate the functionality of 
     AsciinemaPlayer.create('/assets/asciicast/example.cast', document.getElementById('ansible-demo1-wrapper'));
   }
 </script>
+
+## Playbooks for use with Ansible Automation Platform
+
+[Click here] for instructions how to setup Ansible Automation Platform 2 or AWX to use the roles
