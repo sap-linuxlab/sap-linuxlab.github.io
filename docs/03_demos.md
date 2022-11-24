@@ -69,4 +69,4 @@ This page contains several demo recordings, to demonstrate the functionality of 
 
 ## Playbooks for use with Ansible Automation Platform
 
-[Click here] for instructions how to setup Ansible Automation Platform 2 or AWX to use the roles
+[Click here](https://sap-linuxlab.github.io/demo.sap_install/) for instructions how to setup Ansible Automation Platform 2 or AWX to use the roles
