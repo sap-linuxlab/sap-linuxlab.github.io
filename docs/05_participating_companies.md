@@ -39,5 +39,19 @@
 
 ## Project Contributors
 
+<div id="founding-members-big">
+  <div style="display: flex;">
+    <img src="/assets/img/NetApp.png" alt="Red Hat" width="200" />
+  </div>
+</div>
+
+<div id="founding-members-small" style="display: none;">
+  <div style="display: flex;">
+    <img src="/assets/img/NetApp.png" alt="Red Hat" width="150" />
+  </div>
+</div>
+
+
+
 ## Users and Testing Participants
 
