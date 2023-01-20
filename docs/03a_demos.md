@@ -1,4 +1,4 @@
-# Demosi from the commandline
+# Demos
 
 This page contains several demo recordings, to demonstrate the functionality of the open-source projects within the SAP LinuxLab initiative.
 
