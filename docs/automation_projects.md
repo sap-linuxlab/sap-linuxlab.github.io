@@ -86,8 +86,8 @@ Overall, the initiative's automation projects seek to assist SAP-run enterprises
 | | |
 | [community.sap_install](https://github.com/sap-linuxlab/community.sap_install) | Ansible Collection of Ansible Roles for various SAP software installation |
 | [community.sap_operations](https://github.com/sap-linuxlab/community.sap_operations) | Ansible Collection of Ansible Roles for various operational tasks with SAP Systems |
-| [community.sap_infrastructure](https://github.com/sap-linuxlab/community.sap_infrastructure) |  |
+| [community.sap_infrastructure](https://github.com/sap-linuxlab/community.sap_infrastructure) | Collection of Ansible Roles for infrastructure-related tasks for SAP |
 | [community.sap_launchpad](https://github.com/sap-linuxlab/community.sap_launchpad) | Ansible Collection of Ansible Roles and Ansible Modules for various tasks using SAP Launchpad APIs |
-| [community.sap_libs](https://github.com/sap-linuxlab/community.sap_libs) |  |
+| [community.sap_libs](https://github.com/sap-linuxlab/community.sap_libs) | Collection of Ansible Modules for SAP for low-level activities which are highly reusable |
 | [terraform.modules_for_sap](https://github.com/sap-linuxlab/terraform.modules_for_sap) | Terraform Modules for each Cloud and Hypervisor and dynamic Ansible Playbooks for SAP installations. Subcomponent of the Terraform Templates for SAP |
-| [demo.sap_install](https://github.com/sap-linuxlab/demo.sap_install) | Build-your-Own Demonstration usage of community.sap_install collection in Ansible Automation Platform or AWX |
+| [demo.sap_install](https://github.com/sap-linuxlab/demo.sap_install) | Demonstration usage of Build-your-Own community.sap_install Ansible Collection, using Ansible AWX |
