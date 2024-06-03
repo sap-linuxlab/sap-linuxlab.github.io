@@ -2,4 +2,4 @@
 
 Your request has been submitted
 
-[Back to Main](index.md)
+[Back to Main](../index.md)

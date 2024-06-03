@@ -5,8 +5,6 @@ layout: default
 ## Request being a maintainers
 
 Please fill the following form to become a maintainer
-
-
 <!-- modify this form HTML and place wherever you want your form -->
 <form action="https://formspree.io/f/xoqrjpbd" method="POST" >
   <table>

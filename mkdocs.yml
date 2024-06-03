@@ -1,18 +1,17 @@
-site_name: SAP LinuxLab open-source initiative
+---
+
+site_name: SAP LinuxLab Open-Source Initiative
 
 nav:
     - 'index.md'
-    - '00_about.md'
-    - '01_projects_overview.md'
-    - '01b_projects_functionality.md'
-    - '02_roadmap.md'
-    - '03_demos.md'
-    - '04_faq.md'
-    - '05_participating_companies.md'
-    - 'Project Contributions':
-      - 'contribute/contribute_01_guidelines.md'
-      - 'contribute/contribute_02_naming_conventions.md'
-      - 'contribute/contribute_03_how_to_contribute.md'
+    - 'initiative_about.md'
+    - 'initiative_participating_companies.md'
+    - 'initiative_contributions.md'
+    - 'Automation Projects':
+      - 'automation_projects.md'
+      - 'automation_demos.md'
+    - 'other_projects.md'
+    - 'faq.md'
 
 theme:
   name: material
@@ -42,13 +41,14 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/asciinema-3-0-0-player.min.js
+  - assets/javascripts/unhide_div.js
 
 plugins:
   - search
 
 markdown_extensions:
   - meta
-  - admonition
+  - admonition # For FAQ page
   - attr_list
   - tables
   - pymdownx.tasklist:
