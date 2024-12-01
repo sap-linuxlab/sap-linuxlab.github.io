@@ -2,7 +2,7 @@ div.ap-wrapper {
   outline: none;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left; /* Customised */
 }
 div.ap-wrapper .title-bar {
   display: none;
