@@ -17,21 +17,31 @@ This includes complex scenarios with multiple hosts, High Availability, and othe
 
 ### SAP S/4HANA Distributed HA installation
 
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on AWS</button>
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on MS Azure</button>
+<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1a-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on AWS</button>
+<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1b-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_msazure.cast')">Show Demo on MS Azure</button>
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on GCP</button>
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on IBM Cloud</button>
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on IBM PowerVM</button>
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on OVirt VM</button>
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on VMware VM</button>
 
-<div id="ansible-demo1-wrapper" style="display:none; z-index: 1; position: relative; max-width: 80%; height: 500px;">
+<div id="ansible-demo1a-wrapper" style="display:none; z-index: 1; position: relative; max-width: 80%; height: 500px;">
 <ul>
 <li>SAP Software Solution Scenario: <strong>SAP S/4HANA Distributed installation (with HA)</strong></li>
 <li>Operating System: <strong>RHEL for SAP Solutions 8.8</strong></li>
 <li>Infrastructure Platform: <strong>AWS EC2 Virtual Server</strong></li>
 <li>Recording Date: <strong>2024-05-26</strong></li>
 <li>Code Version: Ansible Playbooks for SAP <strong>v1.0.3</strong></li>
+</ul>
+</div>
+
+<div id="ansible-demo1b-wrapper" style="display:none; z-index: 1; position: relative; max-width: 80%; height: 500px;">
+<ul>
+<li>SAP Software Solution Scenario: <strong>SAP S/4HANA Distributed installation (with HA)</strong></li>
+<li>Operating System: <strong>RHEL for SAP Solutions 9.2</strong></li>
+<li>Infrastructure Platform: <strong>MS Azure Virtual Machine</strong></li>
+<li>Recording Date: <strong>2024-12-01</strong></li>
+<li>Code Version: Ansible Playbooks for SAP <strong>v1.0.5</strong></li>
 </ul>
 </div>
 
