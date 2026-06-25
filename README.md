@@ -1,4 +1,4 @@
-![Build Status](../../actions/workflows/gh-pages.yml/badge.svg)
+![Build Status](https://github.com/sap-linuxlab/sap-linuxlab.github.io/actions/workflows/gh-pages.yml/badge.svg)
 
 
 # [SAP LinuxLab initiative site](https://sap-linuxlab.github.io)

@@ -19,11 +19,11 @@ This includes complex scenarios with multiple hosts, High Availability, and othe
 
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1a-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on AWS</button>
 <button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1b-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_msazure.cast')">Show Demo on MS Azure</button>
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on GCP</button>
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on IBM Cloud</button>
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on IBM PowerVM</button>
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on OVirt VM</button>
-<button class="md-button" style="width: 315px;" onclick="unhide_div('ansible-demo1-wrapper','/assets/asciicast/ansible_playbooks_s4hana_dist_ha_aws.cast')">Show Demo on VMware VM</button>
+<button class="md-button" style="width: 315px;" disabled>Show Demo on GCP (coming soon)</button>
+<button class="md-button" style="width: 315px;" disabled>Show Demo on IBM Cloud (coming soon)</button>
+<button class="md-button" style="width: 315px;" disabled>Show Demo on IBM PowerVM (coming soon)</button>
+<button class="md-button" style="width: 315px;" disabled>Show Demo on OVirt VM (coming soon)</button>
+<button class="md-button" style="width: 315px;" disabled>Show Demo on VMware VM (coming soon)</button>
 
 <div id="ansible-demo1a-wrapper" style="display:none; z-index: 1; position: relative; max-width: 80%; height: 500px;">
 <ul>
@@ -70,7 +70,10 @@ For end-users that want to understand how to build a tailored Ansible Playbook u
 
 The following are end-to-end deployments using a single pre-defined Terraform Template for each SAP Software Solution Scenario. Multiple Infrastructure Platforms and Operating Systems are provided, but this project is more restrictive (limited to Sandboxes) than the Ansible Playbooks for SAP.
 
-For More information, see [README of Terraform Templates for SAP](https://github.com/sap-linuxlab/terraform.templates_for_sap).
+For more information, see [README of Terraform Templates for SAP](https://github.com/sap-linuxlab/terraform.templates_for_sap).
+
+!!! note "Historical recordings"
+    The Terraform demo recordings below were captured in 2022. They illustrate the deployment workflow; refer to the [Terraform Templates for SAP](https://github.com/sap-linuxlab/terraform.templates_for_sap) repository for current code versions and platform support.
 
 ### SAP HANA installation
 

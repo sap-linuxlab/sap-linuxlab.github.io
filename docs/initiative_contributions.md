@@ -48,7 +48,7 @@ Do:
 - Discuss with other committers whenever you are unsure of something
 - Engage with the community and with contributors
 - Squash commits whenever possible
-- Use `pre-commit` to avoid pushing non-standardized code
+- Use [`pre-commit`](./initiative_contribute/__install_pre_commit.md) to avoid pushing non-standardized code
 - Avoid incorrect commits, by using Linter tools to check code syntax or CodeSpell for spelling mistakes; for example [Ansible Development guidelines](./initiative_contribute/__ansible_dev_guidelines.md).
 
 Don’t:

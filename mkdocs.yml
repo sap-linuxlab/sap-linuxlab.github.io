@@ -1,17 +1,23 @@
 ---
 
 site_name: SAP LinuxLab Open-Source Initiative
+site_url: https://sap-linuxlab.github.io
 
 nav:
-    - 'index.md'
-    - 'initiative_about.md'
-    - 'initiative_participating_companies.md'
-    - 'initiative_contributions.md'
-    - 'Automation Projects':
-      - 'automation_projects.md'
-      - 'automation_demos.md'
-    - 'other_projects.md'
-    - 'faq.md'
+    - Home: index.md
+    - About: initiative_about.md
+    - Participants: initiative_participating_companies.md
+    - Contributions: initiative_contributions.md
+    - Contribute:
+      - GitHub Discussions: https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions
+      - Fork a Repository: initiative_contribute/__create_a_fork.md
+      - Ansible Dev Guidelines: initiative_contribute/__ansible_dev_guidelines.md
+      - Install pre-commit: initiative_contribute/__install_pre_commit.md
+    - Automation Projects:
+      - Projects: automation_projects.md
+      - Demos: automation_demos.md
+    - Other Projects: other_projects.md
+    - FAQ: faq.md
 
 theme:
   name: material
@@ -21,7 +27,7 @@ theme:
     text: Roboto
   icon:
     logo: 'material/open-source-initiative'
-  favicon: ''
+  favicon: assets/img/sap_linuxlab_logo.png
   features:
     - toc.integrate
     - search.share
@@ -45,6 +51,9 @@ extra_javascript:
 
 plugins:
   - search
+
+hooks:
+  - hooks.py
 
 markdown_extensions:
   - meta

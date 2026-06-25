@@ -4,9 +4,9 @@
 
 ## Minimum requirements
 
-- pyhton 3.7 and higher
+- Python 3.7 and higher
 
-## Installation on RHEL8 (defaults to pyhton 3.6)
+## Installation on RHEL8 (defaults to Python 3.6)
 
 1. Install Python 3.9  <pre> <code>
     sudo dnf install python39-3.9.7
@@ -30,10 +30,10 @@ On other Linux distributions with python 3.7 and later, you can either create a 
 
 ### Configuration files
 
-The config file for pre-commit are created in the root directory of github and is called `.pre-config.yml`. 
+The config file for pre-commit is created in the root directory of the GitHub repository and is called `.pre-commit-config.yml`.
 In case of ansible collections other config files may apply such as `.ansible-lint` and `.yamllint`. 
 The required config files should be created and maintained by the repo maintainers.
-Hence they are automatcially downloaded with `git clone` and `git pull` commands
+Hence they are automatically downloaded with `git clone` and `git pull` commands
 
 ### Activate pre-commit
 A repository maintainer activates pre-commit by running `pre-commit install` within a directory of the cloned repository
@@ -43,7 +43,7 @@ run `pre-commit uninstall`
 
 ### Useful commands
 
-When you first install pre-commit on a repository and you have created your confg file, you should run:
+When you first install pre-commit on a repository and you have created your config file, you should run:
 
 ```
 pre-commit run --all-files [--show-diff-on-failure]
