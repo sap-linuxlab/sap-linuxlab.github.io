@@ -4,6 +4,8 @@
 
 
 # macOS OS generated files
+.vscode/
+__pycache__/
 .DS_Store
 ._*
 .Spotlight-V100
