@@ -11,6 +11,10 @@ __pycache__/
 .Spotlight-V100
 .Trashes
 
+# MkDocs build output
+site/
+.venv/
+
 # Windows OS generated files #
 ehthumbs.db
 Thumbs.db
