@@ -1,0 +1,81 @@
+# Ansible Playbooks README Template
+
+!!! note "How to use this template"
+    Copy the structure below into your repository's `README.md` before submitting a new project to SAP LinuxLab. Replace all placeholder text marked with `<!-- ... -->` comments.
+
+    **Based on:** [ansible.playbooks_for_sap](https://github.com/sap-linuxlab/ansible.playbooks_for_sap)
+
+---
+
+```markdown
+# <!-- Project title, e.g. Ansible Playbooks for SAP -->
+
+## Description
+
+<!-- Briefly describe what these playbooks deploy and which SAP solution scenarios they cover. -->
+
+## Benefits
+
+<!-- Optional but encouraged: list key benefits for users, e.g. ease of use, adaptability, platform consistency. -->
+
+- **Ease of Use:** <!-- ... -->
+- **Highly Adaptable:** <!-- ... -->
+- **Consistent Across Platforms:** <!-- ... -->
+
+## Supported Configurations
+
+### Supported Operating Systems
+
+- SUSE Linux Enterprise Server for SAP Applications (SLES4SAP) <!-- versions -->
+- Red Hat Enterprise Linux for SAP (RHEL4SAP) <!-- versions -->
+
+### Supported Infrastructure Platforms
+
+- <!-- e.g. AWS EC2, Microsoft Azure, IBM Cloud, existing hosts -->
+
+### Supported Deployment Scenarios
+
+| SAP Product | Versions | Deployment Topology | Database |
+| --- | --- | --- | --- |
+| <!-- e.g. SAP S/4HANA --> | <!-- ... --> | <!-- Sandbox / Distributed / HA --> | <!-- SAP HANA --> |
+
+#### Platform-specific notes
+
+<!-- Add platform-specific disclaimers here if needed, e.g. experimental or best-effort support. -->
+
+## How to get started
+
+**Before running the playbook, read the full documentation for requirements and variable preparation.**
+
+1. <!-- Step 1 -->
+2. <!-- Step 2 -->
+3. Execute the playbook: `ansible-playbook ansible_playbook.yml --extra-vars "@./optional/ansible_extravars.yml"`
+
+## Disclaimer
+
+<!-- Required for SAP LinuxLab repositories. -->
+
+These Ansible Playbooks provide Infrastructure-as-Code and Configuration-as-Code automation for SAP software solution scenarios. They offer a codified approach to streamline deployments and can be extended to meet specific requirements.
+
+They are not intended to replace official SAP installation procedures in the [SAP Help Portal](https://help.sap.com) or [SAP Notes on SAP ONE Support](https://launchpad.support.sap.com).
+
+**Supported platforms:** <!-- List RHEL for SAP and/or SLES for SAP versions and infrastructure platforms -->
+
+**Testing coverage:** <!-- Summarise what combinations were tested -->
+
+**Constraints and limitations:** <!-- Known limits, pseudo-idempotency issues, experimental features -->
+
+**Use at your own responsibility.** Validate automation in your own environment before production use.
+
+## Contributing
+
+For information on how to contribute, please see our [contribution guidelines](https://sap-linuxlab.github.io/initiative_contributions/).
+
+## Contributors
+
+We welcome contributions to this project. For a list of all contributors and information on how you can get involved, please see our [CONTRIBUTORS document](./CONTRIBUTORS.md).
+
+## License
+
+[Apache 2.0](./LICENSE)
+```

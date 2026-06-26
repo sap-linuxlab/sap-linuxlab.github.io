@@ -10,7 +10,7 @@ All members of the Open Source Community are welcome to contribute to the SAP Li
 
 Regular contributors to a Project are awarded maintainer status, and play a more active role in the long-term development of the Project. To be awarded maintainer status, self-nomination via an existing maintainer is permitted - although existing maintainers proactively embrace contributors and this is likely to happen automatically. All maintainer requests are approved by the SAP LinuxLab Open-Source Initiative's Governance Board.
 
-New Project / Code Repository submissions are firstly reviewed by an existing Project Maintainer, and then submitted to the SAP LinuxLab Open-Source Initiative's Governance Board for approval; the approval is largely based upon the validation the new project does not duplicate the intent of another.
+New Project / Code Repository submissions are firstly reviewed by an existing Project Maintainer, and then submitted to the SAP LinuxLab Open-Source Initiative's Governance Board for approval; the approval is largely based upon the validation the new project does not duplicate the intent of another. See [Submit a New Repository](./initiative_contribute/__submit_new_repository.md) for the full checklist and README templates.
 
 To request new project contributions and maintainer status, please use the [GitHub Discussion of the SAP LinuxLab Open-Source Initiative's website](https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions). For all other contributions, please use the GitHub Issues on the respective Project's GitHub Repository.
 

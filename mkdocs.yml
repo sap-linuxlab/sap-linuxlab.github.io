@@ -10,6 +10,10 @@ nav:
     - Contributions: initiative_contributions.md
     - Contribute:
       - GitHub Discussions: https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions
+      - Submit a New Repository: initiative_contribute/__submit_new_repository.md
+      - README Templates:
+          - Ansible Collection: readme_templates/readme_ansible_collection.md
+          - Ansible Playbooks: readme_templates/readme_ansible_playbooks.md
       - Fork a Repository: initiative_contribute/__create_a_fork.md
       - Ansible Dev Guidelines: initiative_contribute/__ansible_dev_guidelines.md
       - Install pre-commit: initiative_contribute/__install_pre_commit.md
