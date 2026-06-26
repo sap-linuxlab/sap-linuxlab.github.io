@@ -10,4 +10,4 @@ The projects within this initiative help SAP-run Enterprises with various tools,
 
 The ambition is to enable SAP-run Enterprises worldwide with similar daily problems, to overcome their challenges without following a singular and static approach from a single SAP Technology Partner. Instead these projects under the SAP LinuxLab can be extended and used for bespoke requirements, or used by SAP Service Partners to improve implementation and maintenance services for SAP-run Enterprises.
 
-Development Roadmap for each Project is available upon request, and core developer/s of each Project use `GitHub Issues` to understand Bugs and Feature Requests.
+For who governs the initiative and how repositories are named, see [Governance](./initiative_governance.md). To contribute code or submit a new project, see [How to Contribute](./contribute/index.md).

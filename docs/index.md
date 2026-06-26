@@ -5,7 +5,7 @@
 The SAP LinuxLab Open-Source Initiative brings together automation projects from SAP Technology Partners — Ansible collections, Terraform templates, tools, and reference architectures — for SAP customers and service partners to use, extend, and contribute back.
 
 [:material-view-list: View Automation Projects](automation_projects.md){ .md-button }
-[:material-hand-heart: How to Contribute](initiative_contributions.md){ .md-button }
+[:material-hand-heart: How to Contribute](contribute/index.md){ .md-button }
 [:material-frequently-asked-questions: FAQ](faq.md){ .md-button }
 [:material-github: View all Projects on GitHub.com](https://github.com/sap-linuxlab){ .md-button }
 

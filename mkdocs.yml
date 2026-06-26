@@ -7,16 +7,22 @@ nav:
     - Home: index.md
     - About: initiative_about.md
     - Participants: initiative_participating_companies.md
-    - Contributions: initiative_contributions.md
+    - Governance: initiative_governance.md
     - Contribute:
+      - Overview: contribute/index.md
+      - Existing Projects:
+          - Participate in a Project: contribute/participate.md
+          - Fork a Repository: contribute/create_a_fork.md
+      - New Projects:
+          - Submit a New Repository: contribute/submit_new_repository.md
+          - README Templates:
+              - Ansible Collection: readme_templates/readme_ansible_collection.md
+              - Ansible Playbooks: readme_templates/readme_ansible_playbooks.md
+      - Developer Tools:
+          - Developer Guidelines: contribute/developer_guidelines.md
+          - Install pre-commit: contribute/install_pre_commit.md
+          - Ansible Dev Guidelines: contribute/ansible_dev_guidelines.md
       - GitHub Discussions: https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions
-      - Submit a New Repository: initiative_contribute/__submit_new_repository.md
-      - README Templates:
-          - Ansible Collection: readme_templates/readme_ansible_collection.md
-          - Ansible Playbooks: readme_templates/readme_ansible_playbooks.md
-      - Fork a Repository: initiative_contribute/__create_a_fork.md
-      - Ansible Dev Guidelines: initiative_contribute/__ansible_dev_guidelines.md
-      - Install pre-commit: initiative_contribute/__install_pre_commit.md
     - Automation Projects:
       - Projects: automation_projects.md
       - Demos: automation_demos.md

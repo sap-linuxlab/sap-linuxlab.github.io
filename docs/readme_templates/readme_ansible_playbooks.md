@@ -69,7 +69,7 @@ They are not intended to replace official SAP installation procedures in the [SA
 
 ## Contributing
 
-For information on how to contribute, please see our [contribution guidelines](https://sap-linuxlab.github.io/initiative_contributions/).
+For information on how to contribute, please see our [contribution guidelines](https://sap-linuxlab.github.io/contribute/).
 
 ## Contributors
 

@@ -103,7 +103,7 @@ This Ansible Collection provides automation for SAP-related tasks. It is intende
 
 ## Contributing
 
-For information on how to contribute, please see our [contribution guidelines](https://sap-linuxlab.github.io/initiative_contributions/).
+For information on how to contribute, please see our [contribution guidelines](https://sap-linuxlab.github.io/contribute/).
 
 ## Contributors
 

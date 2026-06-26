@@ -5,13 +5,13 @@ We are glad you are thinking about contributing a new project to SAP LinuxLab. W
 !!! tip "You are welcome here"
     New ideas strengthen the initiative. Taking a few minutes to prepare your repository using the checklist below helps us review your submission quickly and get you connected with the right maintainers.
 
-To start a submission, open a thread in [GitHub Discussions](https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions). New repositories are reviewed by an existing maintainer and then approved by the [Governance Board](../initiative_contributions.md#governance-board).
+To start a submission, open a thread in [GitHub Discussions](https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions). New repositories are reviewed by an existing maintainer and then approved by the [Governance Board](../initiative_governance.md#governance-board).
 
 ## Is this the right path?
 
 | Your goal | Where to go |
 |:---|:---|
-| Fix a bug, add a feature, or open a pull request in an **existing** repository | Use GitHub Issues and Pull Requests on that project, or follow the [Fork a Repository](./__create_a_fork.md) guide |
+| Fix a bug, add a feature, or open a pull request in an **existing** repository | Use GitHub Issues and Pull Requests on that project, or follow the [Fork a Repository](./create_a_fork.md) guide |
 | Submit a **whole new repository** to join SAP LinuxLab | Read this page, prepare your README, then open a [GitHub Discussion](https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions) |
 
 ## What we look for
@@ -49,7 +49,7 @@ Choose the template that best matches your project. Copy the structure into your
 | Ansible Playbooks (e.g. `ansible.playbooks_for_sap`) | [Ansible Playbooks README template](../readme_templates/readme_ansible_playbooks.md) | [ansible.playbooks_for_sap](https://github.com/sap-linuxlab/ansible.playbooks_for_sap) |
 | `terraform.*`, `tool.*`, `demo.*`, and others | Start from the closest template above and note any gaps in your Discussion post | — |
 
-For repository naming conventions, see [Project Naming Conventions](../initiative_contributions.md#project-naming-conventions).
+For repository naming conventions, see [Project Naming Conventions](../initiative_governance.md#project-naming-conventions).
 
 ## Before you submit — quick checklist
 
@@ -71,7 +71,7 @@ For repository naming conventions, see [Project Naming Conventions](../initiativ
 
 ## Related guides
 
-- [Initiative Contributions](../initiative_contributions.md) — governance, maintainers, and naming conventions
-- [Ansible Development Guidelines](./__ansible_dev_guidelines.md) — coding style for `community.*` Ansible collections
-- [Install pre-commit](./__install_pre_commit.md) — recommended tooling for consistent commits
-- [Fork a Repository](./__create_a_fork.md) — for contributing to existing projects
+- [Governance](../initiative_governance.md) — maintainers and naming conventions
+- [Ansible Development Guidelines](./ansible_dev_guidelines.md) — coding style for `community.*` Ansible collections
+- [Install pre-commit](./install_pre_commit.md) — recommended tooling for consistent commits
+- [Fork a Repository](./create_a_fork.md) — for contributing to existing projects
