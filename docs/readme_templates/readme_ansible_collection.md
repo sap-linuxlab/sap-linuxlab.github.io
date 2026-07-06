@@ -34,7 +34,7 @@
 | Operating system | <!-- Red Hat Enterprise Linux for SAP Solutions 8.x, 9.x, 10.x and/or SUSE Linux Enterprise Server for SAP applications 15 SPx, 16.x --> |
 | Python | <!-- e.g. 3.9 or higher --> |
 
-> **Managed Node Registration**  
+> **Managed Node Registration**
 > Operating system needs to have access to required package repositories either directly or via subscription registration.
 
 ## Installation Instructions
@@ -43,22 +43,22 @@
 
 Install this collection with Ansible Galaxy:
 
-\`\`\`console
+\```console
 ansible-galaxy collection install community.<name>
-\`\`\`
+\```
 
 Optionally include the collection in a `requirements.yml` file:
 
-\`\`\`yaml
+\```yaml
 collections:
   - name: community.<name>
-\`\`\`
+\```
 
 ### Upgrade
 
-\`\`\`console
+\```console
 ansible-galaxy collection install community.<name> --upgrade
-\`\`\`
+\```
 
 ## Contents
 
@@ -84,7 +84,7 @@ ansible-galaxy collection install community.<name> --upgrade
 | SAP products | <!-- e.g. SAP S/4HANA, SAP HANA --> |
 | Scenarios | <!-- e.g. sandbox, distributed, HA --> |
 
-> **Testing Disclaimer**  
+> **Testing Disclaimer**
 > <!-- State what was and was not tested. It is not possible to test every OS and SAP product combination with every release. -->
 
 ## Disclaimer

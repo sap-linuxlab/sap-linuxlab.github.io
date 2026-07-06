@@ -14,8 +14,10 @@ Do:
 - Discuss with other committers whenever you are unsure of something
 - Engage with the community and with contributors
 - Squash commits whenever possible
-- Use [pre-commit](./install_pre_commit.md) to avoid pushing non-standardized code
-- Avoid incorrect commits, by using Linter tools to check code syntax or CodeSpell for spelling mistakes; for example [Ansible Development guidelines](./ansible_dev_guidelines.md).
+- Avoid commits, that contain glitches such as linting errors, codespell errors or similar.
+by using Linter tools to check code syntax or CodeSpell for spelling mistakes; for example [Ansible Development guidelines](./ansible_dev_guidelines.md).
+- Use a tool like [pre-commit](./install_pre_commit.md) to automate such checks and to avoid pushing this kind of non-standardized code
+- Open pull requests against the `dev`branch of a project
 
 Don't:
 
