@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - dev
   pull_request:
     branches:
       - main
@@ -24,17 +25,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: src-main
+
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+          path: src-dev
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict
+        working-directory: src-main
+
+      - name: Build production
+        working-directory: src-main
+        run: mkdocs build --strict -d "${GITHUB_WORKSPACE}/site"
+
+      - name: Build preview
+        working-directory: src-dev
+        env:
+          MKDOCS_PREVIEW: "1"
+        run: mkdocs build --strict -d "${GITHUB_WORKSPACE}/site/preview"
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev')
     needs: build
     runs-on: ubuntu-latest
     environment:
