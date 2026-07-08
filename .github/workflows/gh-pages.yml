@@ -11,6 +11,7 @@ on:
     branches:
       - main
       - dev
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -57,7 +58,10 @@ jobs:
           path: site
 
   deploy:
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev')
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' &&
+      (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'))
     needs: build
     runs-on: ubuntu-latest
     environment:
