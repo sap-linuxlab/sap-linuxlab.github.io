@@ -20,14 +20,17 @@ Such contributions can be code development, code review and testing / feedback (
 ## New Projects
 
 - [Submit a New Repository](./submit_new_repository.md) — criteria and checklist
-- [Ansible Collection README template](../readme_templates/readme_ansible_collection.md)
-- [Ansible Playbooks README template](../readme_templates/readme_ansible_playbooks.md)
 
 ## Developer Tools
 
 - [Developer Guidelines](./developer_guidelines.md) — do's and don'ts for contributions
 - [Install pre-commit](./install_pre_commit.md) — recommended tooling for consistent commits
 - [Ansible Dev Guidelines](./ansible_dev_guidelines.md) — coding style for `community.*` Ansible collections
+
+## README Templates
+
+- [Ansible Collection README template](../readme_templates/readme_ansible_collection.md)
+- [Ansible Playbooks README template](../readme_templates/readme_ansible_playbooks.md)
 
 ## Governance
 

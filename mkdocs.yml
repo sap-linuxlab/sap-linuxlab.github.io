@@ -15,13 +15,13 @@ nav:
           - Fork a Repository: contribute/create_a_fork.md
       - New Projects:
           - Submit a New Repository: contribute/submit_new_repository.md
-          - README Templates:
-              - Ansible Collection: readme_templates/readme_ansible_collection.md
-              - Ansible Playbooks: readme_templates/readme_ansible_playbooks.md
       - Developer Tools:
           - Developer Guidelines: contribute/developer_guidelines.md
           - Install pre-commit: contribute/install_pre_commit.md
           - Ansible Dev Guidelines: contribute/ansible_dev_guidelines.md
+      - README Templates:
+          - Ansible Collection: readme_templates/readme_ansible_collection.md
+          - Ansible Playbooks: readme_templates/readme_ansible_playbooks.md
       - GitHub Discussions: https://github.com/sap-linuxlab/sap-linuxlab.github.io/discussions
     - Automation Projects:
       - Projects: automation_projects.md
