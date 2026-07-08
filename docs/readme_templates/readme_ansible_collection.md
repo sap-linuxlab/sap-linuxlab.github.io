@@ -43,22 +43,22 @@
 
 Install this collection with Ansible Galaxy:
 
-\```console
+```console
 ansible-galaxy collection install community.<name>
-\```
+```
 
 Optionally include the collection in a `requirements.yml` file:
 
-\```yaml
+```yaml
 collections:
   - name: community.<name>
-\```
+```
 
 ### Upgrade
 
-\```console
+```console
 ansible-galaxy collection install community.<name> --upgrade
-\```
+```
 
 ## Contents
 
