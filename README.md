@@ -8,7 +8,9 @@
 
 *This static site uses the modified minimal theme from [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)*
 
-This is the source code repository of the SAP LinuxLab initiative website. To propose changes, clone this repository and open a pull request against the `main` branch.
+This is the source code repository of the SAP LinuxLab initiative website. To propose changes, clone this repository and open a pull request against the `dev` branch.
+Your pull request will be reviewed by and if accepted, promoted to the main website.
+You must not create pull requests against the `main` branch directly.
 
 ## Deployment
 
@@ -19,7 +21,7 @@ The site is built with [MkDocs](https://www.mkdocs.org/) and published by the [g
 | `main` | https://sap-linuxlab.github.io/ | Production site |
 | `dev` | https://sap-linuxlab.github.io/preview/ | Preview for testing changes before merging to `main` |
 
-On every push to `main` or `dev`, the workflow builds both versions and deploys them together: production from `main` and preview from `dev`. Pull requests against `main` run a build check only; they are not deployed.
+On every push to `dev`, the workflow builds both versions and deploys them together: production from `main` and preview from `dev`. Pull requests against `main` run a build check only; they are not deployed.
 
 To test website changes before they go live, work on the `dev` branch and push your commits there. When you are ready, merge `dev` into `main`.
 
